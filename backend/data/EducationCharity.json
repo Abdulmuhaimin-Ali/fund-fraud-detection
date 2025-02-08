@@ -1,0 +1,131 @@
+{
+  "charity": {
+    "charity_id": "C123",
+    "charity_name": "Zakat Navigator",
+    "charity_address": "123 Charity St., City, Country",
+    "contact_info": {
+      "phone": "+1234567890",
+      "email": "contact@zakatnavigator.org",
+      "website": "https://www.zakatnavigator.org"
+    },
+    "donors": [
+      {
+        "donor_id": "D001",
+        "name": "John Doe",
+        "contact_info": {
+          "phone": "+9876543210",
+          "email": "johndoe@email.com"
+        },
+        "donation_history": [
+          {
+            "transaction_id": "T001",
+            "amount": 100,
+            "date": "2025-01-01",
+            "payment_method": "Credit Card",
+            "status": "Completed"
+          },
+          {
+            "transaction_id": "T002",
+            "amount": 150,
+            "date": "2025-02-01",
+            "payment_method": "Bank Transfer",
+            "status": "Completed"
+          }
+        ]
+      },
+      {
+        "donor_id": "D002",
+        "name": "Jane Smith",
+        "contact_info": {
+          "phone": "+1239876540",
+          "email": "janesmith@email.com"
+        },
+        "donation_history": [
+          {
+            "transaction_id": "T003",
+            "amount": 50,
+            "date": "2025-03-01",
+            "payment_method": "Paypal",
+            "status": "Completed"
+          }
+        ]
+      }
+    ],
+    "vendors": [
+      {
+        "vendor_id": "V001",
+        "vendor_name": "ABC Supplies",
+        "contact_info": {
+          "phone": "+1112233445",
+          "email": "contact@abcsupplies.com"
+        },
+        "transaction_history": [
+          {
+            "transaction_id": "T004",
+            "amount": 500,
+            "date": "2025-01-15",
+            "status": "Completed"
+          }
+        ]
+      }
+    ],
+    "employees": [
+      {
+        "employee_id": "E001",
+        "name": "Alice Johnson",
+        "role": "Accountant",
+        "salary": 3000,
+        "contact_info": {
+          "phone": "+1234657890",
+          "email": "alice.johnson@zakatnavigator.org"
+        }
+      },
+      {
+        "employee_id": "E002",
+        "name": "Bob Williams",
+        "role": "Operations Manager",
+        "salary": 3500,
+        "contact_info": {
+          "phone": "+9876543210",
+          "email": "bob.williams@zakatnavigator.org"
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "transaction_id": "T005",
+        "donor_id": "D001",
+        "vendor_id": "V001",
+        "amount": 1000,
+        "transaction_date": "2025-01-20",
+        "status": "Completed",
+        "type": "Donation"
+      },
+      {
+        "transaction_id": "T006",
+        "donor_id": "D002",
+        "vendor_id": "V001",
+        "amount": 200,
+        "transaction_date": "2025-03-05",
+        "status": "Completed",
+        "type": "Donation"
+      },
+      {
+        "transaction_id": "T007",
+        "employee_id": "E001",
+        "amount": 3000,
+        "transaction_date": "2025-02-01",
+        "status": "Salary Paid",
+        "type": "Expense"
+      },
+      {
+        "transaction_id": "T008",
+        "employee_id": "E002",
+        "amount": 3500,
+        "transaction_date": "2025-02-05",
+        "status": "Salary Paid",
+        "type": "Expense"
+      }
+    ]
+  }
+}
