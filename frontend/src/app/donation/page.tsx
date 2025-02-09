@@ -5,8 +5,10 @@ import Nav from "../../components/Nav";
 import Rating from "../../components/Rating";
 
 export default function Page() {
+  const val = Math.floor(Math.random() * (100000000+ 1)) + 1;
+
   const product = {
-    id: 1,
+    id: val,
     name: "Handmade Fresh Table",
     price: 687,
     image: "https://placeimg.com/640/480/any?r=0.9178516507833767",

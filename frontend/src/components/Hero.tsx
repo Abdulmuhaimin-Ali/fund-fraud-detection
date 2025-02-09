@@ -1,11 +1,10 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Search } from "lucide-react";
 import Image from "next/image";
 
 interface HeroProps {
   onSearch: (query: string) => void;
-  onCategories: (categories: { title: string; description: string }[]) => void;
+  onCategories: (categories: { title: string; description: string; image: string }[]) => void;
 }
 
 const Hero = ({ onSearch, onCategories }: HeroProps) => {
@@ -19,24 +18,36 @@ const Hero = ({ onSearch, onCategories }: HeroProps) => {
 
   const categories = [
     {
+
       title: "Helping Orphans",
       description: "Zakat helps provide essential support to orphans in need.",
+      image: "/orphan.webp",
+      id:1
     },
     {
       title: "Medical Aid",
       description: "Medical assistance to those who cannot afford it.",
+      image: "/medical.jpg",
+      id:2
     },
     {
       title: "Feeding Families",
       description: "Ensuring families have access to nutritious food.",
+      image: "/feeding.jpg",
+      id:3
     },
     {
       title: "Education Support",
       description: "Supporting education for underprivileged children.",
+      image: "/education.webp",
+      id:4
     },
+
     {
       title: "Emergency Support",
       description: "Supporting education for underprivileged children.",
+      image: "/emergency.jpeg",
+      id:5
     },
   ];
 
@@ -45,10 +56,12 @@ const Hero = ({ onSearch, onCategories }: HeroProps) => {
     onCategories(categories);
   }, [onCategories]);
 
+
+
   return (
     <section className="relative">
       <Image
-        src="/placeholder.svg?height=400&width=600"
+        src="/banner.avif?height=400&width=600"
         alt="Hero Image"
         width={600}
         height={400}
@@ -68,6 +81,7 @@ const Hero = ({ onSearch, onCategories }: HeroProps) => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

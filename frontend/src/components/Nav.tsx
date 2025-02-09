@@ -8,14 +8,14 @@ const Nav = () => {
       <header className="sticky top-0 z-50 w-full border-b border-[#dddddd] bg-[#005316]">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
-            <Image
-              // src="../../public/logo.png"
-              src={""}
+            <Image 
+              src={"/logo.png"}
+              href = "/"
               alt="logo"
               width={50}
               height={50}
-              className="h-[50px] w-[50px]"
-            />
+              className="h-[50px] w-[50px]" />
+        
             <span className="text-xl font-bold text-[#FFFFFF]">
               <a href="/">Zakat Navigator</a>
             </span>
@@ -24,7 +24,7 @@ const Nav = () => {
             <ul className="flex items-center gap-6">
               <li>
                 <Link
-                  href="#"
+                  href="/"
                   className="text-[#FFFFFF] hover:text-[#986d12] transition-colors"
                 >
                   Discover Causes

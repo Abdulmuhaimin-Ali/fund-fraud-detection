@@ -4,6 +4,7 @@ import Link from "next/link";
 type Category = {
   title: string;
   description: string;
+  image: string;
 };
 
 interface CategoriesProps {
@@ -35,7 +36,7 @@ export default function Category({ categories, searchQuery }: CategoriesProps) {
                 className="flex flex-col items-start bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 p-4"
               >
                 <Image
-                  src="/placeholder.svg?height=200&width=300"
+                  src={category.image}
                   alt={category.title}
                   width={300}
                   height={200}
@@ -46,7 +47,14 @@ export default function Category({ categories, searchQuery }: CategoriesProps) {
                 </h3>
                 <p className="mb-4 text-[#374151]">{category.description}</p>
                 <Link
-                  href="/donation"
+                  href={{
+                    pathname: "/donation",
+                    query: {
+                      title: category.title,
+                      description: category.description,
+                      image: category.image,
+                    },
+                  }}
                   className="rounded bg-[#005316] px-6 py-2 text-white hover:bg-[#005316]/90 transition-colors"
                 >
                   Learn More
