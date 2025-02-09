@@ -3,73 +3,13 @@
     "charity_id": "C123",
     "charity_name": "Zakat Navigator",
     "charity_address": "123 Charity St., City, Country",
+    "ratio_of_fraud": "",
+    "reasons_of_fraud": "",
     "contact_info": {
       "phone": "+1234567890",
       "email": "contact@zakatnavigator.org",
       "website": "https://www.zakatnavigator.org"
     },
-    "donors": [
-      {
-        "donor_id": "D001",
-        "name": "John Doe",
-        "contact_info": {
-          "phone": "+9876543210",
-          "email": "johndoe@email.com"
-        },
-        "donation_history": [
-          {
-            "transaction_id": "T001",
-            "amount": 100,
-            "date": "2025-01-01",
-            "payment_method": "Credit Card",
-            "status": "Completed"
-          },
-          {
-            "transaction_id": "T002",
-            "amount": 150,
-            "date": "2025-02-01",
-            "payment_method": "Bank Transfer",
-            "status": "Completed"
-          }
-        ]
-      },
-      {
-        "donor_id": "D002",
-        "name": "Jane Smith",
-        "contact_info": {
-          "phone": "+1239876540",
-          "email": "janesmith@email.com"
-        },
-        "donation_history": [
-          {
-            "transaction_id": "T001",
-            "timestamp": "2025-01-01 10:00:00",
-            "amount": 100,
-            "currency": "USD",
-            "sender_info": "John Doe - ****1234",
-            "receiver_info": "Zakat Navigator - ****5678",
-            "transaction_type": "Credit Card Payment",
-            "ip_address": "192.168.1.1",
-            "location_data": "New York, USA",
-            "device_info": "iPhone 13, iOS 16",
-            "additional_context": "Transaction completed successfully"
-          },
-          {
-            "transaction_id": "T002",
-            "timestamp": "2025-02-01 15:30:00",
-            "amount": 150,
-            "currency": "USD",
-            "sender_info": "John Doe - ****1234",
-            "receiver_info": "Zakat Navigator - ****5678",
-            "transaction_type": "Bank Transfer",
-            "ip_address": "192.168.1.2",
-            "location_data": "Los Angeles, USA",
-            "device_info": "MacBook Pro, macOS 13",
-            "additional_context": "Transaction completed successfully"
-          }
-        ]
-      }
-    ],
     "vendors": [
       {
         "vendor_id": "V001",
@@ -77,15 +17,14 @@
         "contact_info": {
           "phone": "+1112233445",
           "email": "contact@abcsupplies.com"
-        },
-        "transaction_history": [
-          {
-            "transaction_id": "T004",
-            "amount": 500,
-            "date": "2025-01-15",
-            "status": "Completed"
-          }
-        ]
+        }},
+      {
+        "vendor_id": "V002",
+        "vendor_name": "Water Guys",
+        "contact_info": {
+          "phone": "+1112233445",
+          "email": "contact@waterguys.com"
+        }
       }
     ],
     "employees": [
@@ -116,8 +55,8 @@
         "timestamp": "2025-01-20 12:45:00",
         "amount": 1000,
         "currency": "USD",
-        "sender_info": "John Doe - ****1234",
-        "receiver_info": "ABC Supplies - ****7890",
+        "sender_info": "C123",
+        "receiver_info": "V001",
         "transaction_type": "Donation",
         "ip_address": "192.168.2.1",
         "location_data": "Chicago, USA",
@@ -129,8 +68,21 @@
         "timestamp": "2025-02-01 08:00:00",
         "amount": 3000,
         "currency": "USD",
-        "sender_info": "Zakat Navigator - Payroll",
-        "receiver_info": "Alice Johnson - ****1122",
+        "sender_info": "C123",
+        "receiver_info": "E001",
+        "transaction_type": "Salary Payment",
+        "ip_address": "192.168.3.1",
+        "location_data": "Toronto, Canada",
+        "device_info": "Android Phone, Chrome Browser",
+        "additional_context": "Salary payment processed successfully"
+      },
+      {
+        "transaction_id": "T009",
+        "timestamp": "2025-02-01 08:00:00",
+        "amount": 2000,
+        "currency": "USD",
+        "sender_info": "C123",
+        "receiver_info": "E008",
         "transaction_type": "Salary Payment",
         "ip_address": "192.168.3.1",
         "location_data": "Toronto, Canada",
