@@ -46,7 +46,7 @@ Date Format:
 Use YYYY-MM-DD format for all dates.
 Output Format (Strictly Follow This JSON Structure):
 json
-Copy
+Copy`
 Edit
 {
   "charity": "<charity_id>",
@@ -78,3 +78,5 @@ response = completion.choices[0].message.content
 file = open("output.json", "w")
 file.write(response)
 file.close()
+
+
