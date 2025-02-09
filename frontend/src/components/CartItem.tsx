@@ -21,10 +21,10 @@ export default function CartItem({
   return (
     <div className="flex gap-4 p-4 rounded-lg border border-gray-200 shadow-sm mb-4 transition hover:shadow-md">
       <Image
-        src={image || "/placeholder.svg?height=50&width=50"}
+        src={image || "/orphan.webp?height=50&width=50"}
         alt={name}
-        width={50}
-        height={50}
+        width={100}
+        height={25}
         className="grayscale object-cover rounded-md"
       />
       <div className="flex flex-col justify-between w-full">

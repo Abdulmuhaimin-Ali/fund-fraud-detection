@@ -9,9 +9,9 @@ export default function Page() {
 
   const product = {
     id: val,
-    name: "Handmade Fresh Table",
-    price: 687,
-    image: "https://placeimg.com/640/480/any?r=0.9178516507833767",
+    name: "Feeding Orphan",
+    price: 0,
+    image: "/orphan.webp",
     description:
       "Andy shoes are designed to keep in mind durability as well as trends, the most stylish range of shoes & sandals",
   };
@@ -24,7 +24,7 @@ export default function Page() {
         {/* Left Column - Image */}
         <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
           <Image
-            src="/MSA.jpg?height=600&width=800"
+            src="/orphan.webp?height=600&width=800"
             alt="Zakat-Picture"
             fill
             className="object-cover"
@@ -40,17 +40,22 @@ export default function Page() {
           </h1>
           <div className="prose max-w-none mb-8">
             <p className="text-[#374151]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-              cursus lorem. Donec ac eros vitae ipsum vehicula vestibut. Quisque
-              faucibus ante eu risus porta, auctor varius est rhoncus. Sed ut
-              lacinia libero, id viverra porta. Suspendisse imperdiet, venenatis
-              mi. Integer pellentesque molestie dictum.
+            Zakat plays a vital role in providing essential 
+            care and support to orphans who have lost their 
+            parents and guardians. Through your generous contributions, 
+            these vulnerable children receive food, shelter, education, and healthcare, ensuring they 
+            have a chance at a brighter future. By fulfilling this noble duty, we can 
+            help provide them with a loving environment, emotional support, and the 
+            resources they need to grow and thrive. Every donation makes a difference in transforming their lives and giving them hope for a better tomorrow.
+
             </p>
             <p className="text-[#374151] mt-4">
-              Maecenas at velit non elit tincidunt aliquet vitae vitae lectus.
-              Sed elementum nec ipsum rhoncus hendrerit. Proin faucilibus metus
-              vel sis blandit, id condimentum ipsum sodales. Nullam sit amet,
-              volutpat in consectetur.
+            Beyond meeting their basic needs, supporting orphans through zakat empowers them with 
+            opportunities for long-term success. Access to quality education, skill development, and emotional
+             well-being programs helps them become self-sufficient and confident individuals. Your kindness not only changes
+              their present circumstances but also shapes their future, allowing them to build a life of dignity and independence. 
+              Together, we can make a lasting impact and ensure that no orphan is left behind.
+
             </p>
             <Rating />
           </div>

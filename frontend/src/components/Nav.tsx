@@ -9,12 +9,12 @@ const Nav = () => {
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
             <Image 
-              src={"/logo.png"}
+              src={"/logo.webp"}
               href = "/"
               alt="logo"
               width={50}
               height={50}
-              className="h-[50px] w-[50px]" />
+              className="h-[50px] w-[70px]" />
         
             <span className="text-xl font-bold text-[#FFFFFF]">
               <a href="/">Zakat Navigator</a>
