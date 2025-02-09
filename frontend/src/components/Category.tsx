@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 
 type Category = {
   title: string;
@@ -42,9 +43,9 @@ export default function Category({ categories, searchQuery }: CategoriesProps) {
                   {category.title}
                 </h3>
                 <p className="mb-4 text-[#374151]">{category.description}</p>
-                <button className="rounded bg-[#005316] px-6 py-2 text-white hover:bg-[#005316]/90 transition-colors">
-                  Learn More
-                </button>
+                <Link href = "/donation" className="rounded bg-[#005316] px-6 py-2 text-white hover:bg-[#005316]/90 transition-colors">
+                Learn More
+                </Link>
               </div>
             ))}
           </div>
