@@ -42,7 +42,7 @@ const Nav = () => {
                
               </li>
               <li>
-              <Link href = "#" className="bg-[#986d12] hover:bg-[#986d12]/90 text-white p-2 rounded-md">Support Zakat Navigator</Link>
+              <Link href = "/basket" className="bg-[#986d12] hover:bg-[#986d12]/90 text-white p-2 rounded-md">Checkout</Link>
               </li>
             </ul>
           </nav>

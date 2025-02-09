@@ -12,7 +12,7 @@ export function DonationForm() {
   const [customAmount, setCustomAmount] = useState(false)
 
   return (
-    <form className="space-y-8">
+    <form className="space-y-8 text-black">
       
       <div>
         <h2 className="text-lg font-semibold mb-4">Donation Amount</h2>
@@ -35,7 +35,7 @@ export function DonationForm() {
             type="button"
             variant={customAmount ? "default" : "outline"}
             onClick={() => setCustomAmount(true)}
-            className="bg-[#005316] text-white hover:bg-[#005316]/90"
+            className="bg-[#5fa772] text-black hover:bg-[#FFFFFF]/90"
           >
             CUSTOM AMOUNT
           </Button>
@@ -43,11 +43,11 @@ export function DonationForm() {
         {customAmount && (
           <div className="flex items-center gap-2 mb-4">
             <span className="text-xl">$</span>
-            <Input
+            <Input 
               type="number"
               value={amount}
               onChange={(e) => setAmount(Number(e.target.value))}
-              className="text-xl"
+              className="text-xl bg-white"
             />
           </div>
         )}
@@ -58,16 +58,16 @@ export function DonationForm() {
         <div className="grid md:grid-cols-2 gap-4 mb-4">
           <div>
             <Label htmlFor="firstName">First Name</Label>
-            <Input id="firstName" placeholder="First Name" />
+            <Input  className ="bg-[#eeeeee]" id="firstName" placeholder="First Name" />
           </div>
           <div>
             <Label htmlFor="lastName">Last Name</Label>
-            <Input id="lastName" placeholder="Last Name" />
+            <Input  className ="bg-[#eeeeee]" id="lastName" placeholder="Last Name" />
           </div>
         </div>
         <div>
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" type="email" placeholder="Email Address" />
+          <Input className ="bg-[#eeeeee]"id="email" type="email" placeholder="Email Address" />
         </div>
       </div>
 
