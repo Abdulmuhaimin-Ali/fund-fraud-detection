@@ -1,10 +1,16 @@
 {
-  "charity": "C123",
+  "charity": "C001",
   "data": {
-    "total": 6000,
-    "total_non_fraud": 4000,
+    "total": 610349,
+    "total_non_fraud": 399635,
+    "non_fraud_ratio": 0.654,
     "reasons": [
-      "Transaction to non-existent employee E008 for $2000"
+      "T0111: Payment in other currency",
+      "T0111: Sudden large withdrawal",
+      "T0137: Sudden large withdrawal",
+      "T0157: Payment in other currency",
+      "T0005: Ghost employee/vendor",
+      "T0080: Ghost employee/vendor"
     ]
   }
 }
