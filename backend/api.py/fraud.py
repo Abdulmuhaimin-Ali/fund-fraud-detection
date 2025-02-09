@@ -11,7 +11,7 @@ import json
 import ast
 load_dotenv()
 
-file = open("backend\data\EducationCharity.json", "r")
+file = open("backend/data/EducationCharity.json", "r")
 data = file.readlines()
 file.close()
 

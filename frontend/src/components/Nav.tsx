@@ -16,7 +16,7 @@ const Nav = () => {
               height={50}
               className="h-[50px] w-[50px]"
             />
-            <span className="text-xl font-bold text-[#FFFFFF]">Zakat Navigator</span>
+            <span className="text-xl font-bold text-[#FFFFFF]"><a href = "/">Zakat Navigator</a></span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-6">
@@ -42,7 +42,7 @@ const Nav = () => {
                
               </li>
               <li>
-              <Link href = "#" className="bg-[#986d12] hover:bg-[#986d12]/90 text-white p-2 rounded-md">Support Zakat Navigator</Link>
+              <Link href = "/basket" className="bg-[#986d12] hover:bg-[#986d12]/90 text-white p-2 rounded-md">Checkout</Link>
               </li>
             </ul>
           </nav>
