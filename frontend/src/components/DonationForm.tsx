@@ -1,19 +1,38 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Button } from "./ui/button"
-import { Input } from "./ui/input"
-import { Label } from "./ui/label"
+import { useState } from "react";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
+import { useCart } from "@/cartContext";
 
-const PRESET_AMOUNTS = [10, 25, 50, 100, 500]
+interface DonationFormProps {
+  id: number;
+  name: string;
+  price: number;
+  description?: string;
+  image?: string;
+}
 
-export function DonationForm() {
-  const [amount, setAmount] = useState(600)
-  const [customAmount, setCustomAmount] = useState(false)
+interface CartProduct {
+  product: DonationFormProps;
+}
+
+const PRESET_AMOUNTS = [10, 25, 50, 100, 500];
+
+export function DonationForm({ product }: CartProduct) {
+  const [amount, setAmount] = useState(600);
+  const [customAmount, setCustomAmount] = useState(false);
+  const { addToCart } = useCart();
+
+  const handleAddToCart = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const updatedProduct = { ...product, price: amount };
+    addToCart(updatedProduct);
+  };
 
   return (
-    <form className="space-y-8 text-black">
-      
+    <form className="space-y-8 text-black" onSubmit={handleAddToCart}>
       <div>
         <h2 className="text-lg font-semibold mb-4">Donation Amount</h2>
         <div className="grid grid-cols-3 gap-3 mb-4">
@@ -23,8 +42,8 @@ export function DonationForm() {
               type="button"
               variant={amount === preset ? "default" : "outline"}
               onClick={() => {
-                setAmount(preset)
-                setCustomAmount(false)
+                setAmount(preset);
+                setCustomAmount(false);
               }}
               className="text-lg"
             >
@@ -43,7 +62,7 @@ export function DonationForm() {
         {customAmount && (
           <div className="flex items-center gap-2 mb-4">
             <span className="text-xl">$</span>
-            <Input 
+            <Input
               type="number"
               value={amount}
               onChange={(e) => setAmount(Number(e.target.value))}
@@ -58,16 +77,29 @@ export function DonationForm() {
         <div className="grid md:grid-cols-2 gap-4 mb-4">
           <div>
             <Label htmlFor="firstName">First Name</Label>
-            <Input  className ="bg-[#eeeeee]" id="firstName" placeholder="First Name" />
+            <Input
+              className="bg-[#eeeeee]"
+              id="firstName"
+              placeholder="First Name"
+            />
           </div>
           <div>
             <Label htmlFor="lastName">Last Name</Label>
-            <Input  className ="bg-[#eeeeee]" id="lastName" placeholder="Last Name" />
+            <Input
+              className="bg-[#eeeeee]"
+              id="lastName"
+              placeholder="Last Name"
+            />
           </div>
         </div>
         <div>
           <Label htmlFor="email">Email Address</Label>
-          <Input className ="bg-[#eeeeee]"id="email" type="email" placeholder="Email Address" />
+          <Input
+            className="bg-[#eeeeee]"
+            id="email"
+            type="email"
+            placeholder="Email Address"
+          />
         </div>
       </div>
 
@@ -76,11 +108,13 @@ export function DonationForm() {
           <div className="text-sm text-[#374151]">Donation Total:</div>
           <div className="text-2xl font-bold text-[#005316]">${amount}</div>
         </div>
-        <Button type="submit" className="bg-[#005316] text-white hover:bg-[#005316]/90 px-8">
+        <Button
+          type="submit"
+          className="bg-[#005316] text-black hover:bg-[#005316]/90 px-8"
+        >
           ADD TO CART
         </Button>
       </div>
     </form>
-  )
+  );
 }
-

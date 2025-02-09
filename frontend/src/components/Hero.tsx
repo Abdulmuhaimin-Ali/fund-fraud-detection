@@ -1,8 +1,7 @@
-import {useState} from 'react'
-import {useEffect} from 'react'
-import { Search } from "lucide-react"
-import Image from "next/image"
-
+import { useState } from "react";
+import { useEffect } from "react";
+import { Search } from "lucide-react";
+import Image from "next/image";
 
 interface HeroProps {
   onSearch: (query: string) => void;
@@ -61,11 +60,11 @@ const Hero = ({ onSearch, onCategories }: HeroProps) => {
             <input
               type="text"
               placeholder="Search for Causes"
-              className="w-full rounded-lg border border-[#dddddd] bg-white px-4 py-3 pl-12 text-[#374151] placeholder-[#986d12] focus:border-[#005316] focus:outline-none focus:ring-1 focus:ring-[#005316]"
+              className="w-full rounded-lg border border-[#dddddd] bg-white px-4 py-3 pl-12 text-[#374151] placeholder-[#374151] focus:border-[#005316] focus:outline-none focus:ring-1 focus:ring-[#005316]"
               value={query}
               onChange={search}
             />
-            <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[#986d12]" />
+            <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[#374151]" />
           </div>
         </div>
       </div>

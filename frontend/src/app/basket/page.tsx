@@ -1,8 +1,10 @@
-import Nav from "../../components/Nav"
-import CartItem from "../../components/CartItem"
-import PaymentForm from "../../components/PaymentForm"
-
+"use client";
+import Nav from "../../components/Nav";
+import CartItem from "../../components/CartItem";
+import PaymentForm from "../../components/PaymentForm";
+import { useCart } from "../../cartContext";
 export default function Page() {
+  const { cart } = useCart();
   return (
     <div className="min-h-screen bg-white">
       <Nav />
@@ -12,9 +14,17 @@ export default function Page() {
           <div>
             <h1 className="text-2xl font-semibold mb-6">Shopping cart</h1>
             <div>
-              <CartItem title="Lorem Ipsum" description="Lorem Ipsum varius est pretium" />
-              <CartItem title="Lorem Ipsum" description="Lorem Ipsum varius est pretium" />
-              <CartItem title="Lorem Ipsum" description="Lorem Ipsum varius est pretium" />
+              {cart.map((item) => {
+                return (
+                  <CartItem
+                    key={item.id}
+                    id={item.id}
+                    name={item.name}
+                    description={item.description}
+                    price={item.price}
+                  />
+                );
+              })}
             </div>
           </div>
 
@@ -24,6 +34,5 @@ export default function Page() {
         </div>
       </main>
     </div>
-  )
+  );
 }
-
