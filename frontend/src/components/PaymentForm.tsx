@@ -10,14 +10,14 @@ export default function PaymentForm() {
       <div className="mb-6">
         <p className="mb-2">Card type</p>
         <div className="flex gap-2">
-          <div className="bg-[#1A6039] p-2 rounded">
-            <Image src="/placeholder.svg?height=30&width=45" alt="Mastercard" width={45} height={30} />
+          <div className="bg-[#53bc83]  p-2 rounded">
+            <Image src="/mastercard.png?height=30&width=45" alt="Mastercard" width={60} height={30} />
           </div>
-          <div className="bg-[#1A6039] p-2 rounded">
-            <Image src="/placeholder.svg?height=30&width=45" alt="Visa" width={45} height={30} />
+          <div className="bg-[#53bc83] p-2 pt-4 rounded">
+            <Image src="/visa.svg?height=30&width=45" alt="Visa" width={60} height={30} />
           </div>
-          <div className="bg-[#1A6039] p-2 rounded">
-            <Image src="/placeholder.svg?height=30&width=45" alt="RuPay" width={45} height={30} />
+          <div className="bg-[#53bc83] p-2 rounded">
+            <Image src="/paypal.webp?height=30&width=45" alt="RuPay" width={45} height={30} />
           </div>
         </div>
       </div>
