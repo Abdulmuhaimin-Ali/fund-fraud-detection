@@ -1,1 +1,1 @@
-# zakat-fruad-detection
+# zakat-fraud-detection
