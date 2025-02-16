@@ -1,0 +1,101 @@
+EmployeeID,Name,Role,Salary,Phone,Email
+E001,Zach Johnson,Analyst,3061,+14831851012,zach.johnson@zakatnavigator.org
+E002,George Miller,Executive,5488,+12961523623,george.miller@zakatnavigator.org
+E003,Sam Anderson,HR Specialist,4144,+15071123554,sam.anderson@zakatnavigator.org
+E004,Quincy White,Clerk,4943,+13638672154,quincy.white@zakatnavigator.org
+E005,Alice Johnson,Accountant,5799,+12896111833,alice.johnson@zakatnavigator.org
+E006,Alice Moore,Analyst,3532,+14877403034,alice.moore@zakatnavigator.org
+E007,Ian Taylor,Manager,5591,+10916948892,ian.taylor@zakatnavigator.org
+E008,George Smith,Executive,5687,+12778633458,george.smith@zakatnavigator.org
+E009,Zach Williams,IT Support,4285,+18485826968,zach.williams@zakatnavigator.org
+E010,Tina Jones,IT Support,3659,+10479286485,tina.jones@zakatnavigator.org
+E011,Evan Smith,Manager,5568,+14575789202,evan.smith@zakatnavigator.org
+E012,Ian Davis,Executive,3340,+10266240867,ian.davis@zakatnavigator.org
+E013,Wendy Anderson,Manager,3579,+18945474673,wendy.anderson@zakatnavigator.org
+E014,Mike Brown,Executive,5564,+17137396071,mike.brown@zakatnavigator.org
+E015,Charlie Miller,Manager,3145,+10847099790,charlie.miller@zakatnavigator.org
+E016,Jane Smith,Manager,5828,+15229756864,jane.smith@zakatnavigator.org
+E017,Xander Jones,Accountant,4820,+12502183985,xander.jones@zakatnavigator.org
+E018,Tina Jones,Analyst,5603,+14670548857,tina.jones@zakatnavigator.org
+E019,Xander Jones,Executive,2786,+10384863799,xander.jones@zakatnavigator.org
+E020,Quincy Davis,Accountant,5531,+18582479584,quincy.davis@zakatnavigator.org
+E021,Charlie Davis,IT Support,5585,+13697709617,charlie.davis@zakatnavigator.org
+E022,George Wilson,IT Support,2588,+11092993104,george.wilson@zakatnavigator.org
+E023,Laura Jackson,Accountant,5028,+13890732754,laura.jackson@zakatnavigator.org
+E024,Diana Anderson,Manager,2967,+18857086885,diana.anderson@zakatnavigator.org
+E025,Jane White,Accountant,4934,+13437988355,jane.white@zakatnavigator.org
+E026,Hannah Anderson,Analyst,3891,+16483450346,hannah.anderson@zakatnavigator.org
+E027,Fiona White,Manager,2659,+10131438359,fiona.white@zakatnavigator.org
+E028,Wendy Brown,Manager,5853,+19797617497,wendy.brown@zakatnavigator.org
+E029,Hannah Moore,Executive,5284,+10532309167,hannah.moore@zakatnavigator.org
+E030,Mike Moore,HR Specialist,4549,+10042770772,mike.moore@zakatnavigator.org
+E031,Bob Johnson,HR Specialist,2588,+17904254411,bob.johnson@zakatnavigator.org
+E032,Fiona Jackson,Clerk,3489,+15723115270,fiona.jackson@zakatnavigator.org
+E033,Mike Miller,Accountant,5920,+18758698154,mike.miller@zakatnavigator.org
+E034,Kevin Thomas,Executive,3613,+10490731573,kevin.thomas@zakatnavigator.org
+E035,Yvonne Anderson,IT Support,3705,+11062430376,yvonne.anderson@zakatnavigator.org
+E036,Fiona Thomas,Clerk,4030,+13706317700,fiona.thomas@zakatnavigator.org
+E037,Jane Jones,Accountant,2654,+18759808314,jane.jones@zakatnavigator.org
+E038,Uma Moore,HR Specialist,5755,+16697601285,uma.moore@zakatnavigator.org
+E039,Ian Williams,Manager,5122,+12916751719,ian.williams@zakatnavigator.org
+E040,Uma Davis,Executive,3089,+14479832556,uma.davis@zakatnavigator.org
+E041,Wendy Wilson,IT Support,4130,+19078358108,wendy.wilson@zakatnavigator.org
+E042,Nina Anderson,Manager,5989,+15356490252,nina.anderson@zakatnavigator.org
+E043,Xander Jackson,Analyst,4592,+16761055931,xander.jackson@zakatnavigator.org
+E044,Uma White,Analyst,5640,+13652169476,uma.white@zakatnavigator.org
+E045,Rachel Moore,HR Specialist,3436,+14636666006,rachel.moore@zakatnavigator.org
+E046,Mike Davis,Clerk,3282,+19112407911,mike.davis@zakatnavigator.org
+E047,Quincy Williams,Executive,3161,+14439416353,quincy.williams@zakatnavigator.org
+E048,Bob Jones,IT Support,3307,+17603259880,bob.jones@zakatnavigator.org
+E049,Tina Williams,Clerk,3576,+14430160880,tina.williams@zakatnavigator.org
+E050,Nina Brown,Manager,5418,+11779330544,nina.brown@zakatnavigator.org
+E051,Alice Harris,Manager,3970,+19299750525,alice.harris@zakatnavigator.org
+E052,Bob Jackson,Accountant,4553,+15568581009,bob.jackson@zakatnavigator.org
+E053,Xander Jones,IT Support,4348,+18770434742,xander.jones@zakatnavigator.org
+E054,Yvonne Anderson,HR Specialist,3651,+19827016268,yvonne.anderson@zakatnavigator.org
+E055,Bob Brown,HR Specialist,5645,+11784706210,bob.brown@zakatnavigator.org
+E056,Yvonne White,Accountant,5341,+14877660866,yvonne.white@zakatnavigator.org
+E057,Paula Wilson,Clerk,2801,+12117876527,paula.wilson@zakatnavigator.org
+E058,Uma Thomas,Manager,5616,+19671379055,uma.thomas@zakatnavigator.org
+E059,Uma Jones,Clerk,5221,+13996651784,uma.jones@zakatnavigator.org
+E060,Zach Johnson,Analyst,2509,+13490251692,zach.johnson@zakatnavigator.org
+E061,George Johnson,Clerk,4511,+17294697887,george.johnson@zakatnavigator.org
+E062,Rachel Thomas,HR Specialist,4218,+11074675738,rachel.thomas@zakatnavigator.org
+E063,Bob Smith,Analyst,4379,+18541123075,bob.smith@zakatnavigator.org
+E064,Diana Johnson,HR Specialist,4670,+19722552927,diana.johnson@zakatnavigator.org
+E065,Diana Moore,Accountant,5326,+19964833239,diana.moore@zakatnavigator.org
+E066,Ian Jackson,Clerk,2926,+12538490558,ian.jackson@zakatnavigator.org
+E067,Hannah Brown,Clerk,4805,+11181601408,hannah.brown@zakatnavigator.org
+E068,George Taylor,Clerk,2833,+13263852421,george.taylor@zakatnavigator.org
+E069,Wendy Davis,Executive,5899,+17460098030,wendy.davis@zakatnavigator.org
+E070,Laura Taylor,Executive,4431,+11211376410,laura.taylor@zakatnavigator.org
+E071,Yvonne Wilson,Manager,2750,+19678769480,yvonne.wilson@zakatnavigator.org
+E072,Xander Taylor,Manager,5998,+17078934214,xander.taylor@zakatnavigator.org
+E073,Fiona Moore,Accountant,3370,+13892638106,fiona.moore@zakatnavigator.org
+E074,Uma Brown,IT Support,5365,+18925113819,uma.brown@zakatnavigator.org
+E075,Kevin Wilson,IT Support,5793,+13888346170,kevin.wilson@zakatnavigator.org
+E076,Fiona Davis,Analyst,2510,+14578156091,fiona.davis@zakatnavigator.org
+E077,Rachel White,Clerk,5197,+17105053089,rachel.white@zakatnavigator.org
+E078,Oscar Johnson,Clerk,5302,+16713878146,oscar.johnson@zakatnavigator.org
+E079,Nina Brown,IT Support,4156,+11363549241,nina.brown@zakatnavigator.org
+E080,Rachel Anderson,Accountant,4134,+19428131631,rachel.anderson@zakatnavigator.org
+E081,Quincy Miller,Accountant,5291,+15775576192,quincy.miller@zakatnavigator.org
+E082,George Jackson,Clerk,4333,+17343657505,george.jackson@zakatnavigator.org
+E083,Bob Anderson,Clerk,2870,+12446735764,bob.anderson@zakatnavigator.org
+E084,Jane Smith,Accountant,5937,+18112850581,jane.smith@zakatnavigator.org
+E085,Zach Brown,IT Support,4437,+17364346090,zach.brown@zakatnavigator.org
+E086,Alice Brown,Manager,5673,+19529268517,alice.brown@zakatnavigator.org
+E087,Charlie Smith,IT Support,2676,+16664938145,charlie.smith@zakatnavigator.org
+E088,Charlie Jackson,HR Specialist,4262,+19698652959,charlie.jackson@zakatnavigator.org
+E089,Ian Davis,Executive,2867,+12834678791,ian.davis@zakatnavigator.org
+E090,Ian Jackson,Manager,3578,+10260677236,ian.jackson@zakatnavigator.org
+E091,Sam Jones,Manager,2776,+19679868555,sam.jones@zakatnavigator.org
+E092,Evan Miller,Executive,5883,+11090754897,evan.miller@zakatnavigator.org
+E093,Rachel Taylor,HR Specialist,4137,+11405633470,rachel.taylor@zakatnavigator.org
+E094,Wendy Johnson,Accountant,3722,+14942892279,wendy.johnson@zakatnavigator.org
+E095,Oscar Brown,HR Specialist,3240,+13926981170,oscar.brown@zakatnavigator.org
+E096,Evan White,Analyst,3864,+19000073831,evan.white@zakatnavigator.org
+E097,Diana Jones,IT Support,5255,+14651788082,diana.jones@zakatnavigator.org
+E098,Charlie White,Analyst,5756,+15642052153,charlie.white@zakatnavigator.org
+E099,Paula Jones,Executive,4723,+11317966451,paula.jones@zakatnavigator.org
+E100,Wendy Harris,HR Specialist,3117,+18621132186,wendy.harris@zakatnavigator.org
