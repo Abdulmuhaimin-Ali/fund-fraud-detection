@@ -1,0 +1,16 @@
+{
+  "charity": "C001",
+  "data": {
+    "total": 610349,
+    "total_non_fraud": 399635,
+    "non_fraud_ratio": 0.654,
+    "reasons": [
+      "T0111: Payment in other currency",
+      "T0111: Sudden large withdrawal",
+      "T0137: Sudden large withdrawal",
+      "T0157: Payment in other currency",
+      "T0005: Ghost employee/vendor",
+      "T0080: Ghost employee/vendor"
+    ]
+  }
+}
