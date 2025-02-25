@@ -1,1 +1,1 @@
-# zakat-fruad-detection
+# charity-fruad-detection
