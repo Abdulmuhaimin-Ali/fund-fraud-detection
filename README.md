@@ -1,1 +1,1 @@
-# charity-fruad-detection
+# Funding Fraud Detection
