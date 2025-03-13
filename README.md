@@ -99,12 +99,5 @@ fund-fraud-detection/
 
 ---
 
----
 
-## 🤝 Contributing  
-Contributions are welcome! Feel free to submit pull requests or open issues.  
-
----
-
----
 
