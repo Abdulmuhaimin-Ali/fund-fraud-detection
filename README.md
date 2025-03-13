@@ -22,7 +22,7 @@ cd fund-fraud-detection
 ### 2️⃣ Install Dependencies  
 #### Backend (Python)  
 ```bash
-npm -i
+pip install
 ```
 
 #### Frontend (Next.js, TypeScript)  
