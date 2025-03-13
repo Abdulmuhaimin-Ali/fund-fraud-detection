@@ -15,14 +15,14 @@
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/fund-fraud-detection.git
+git clone https://github.com/Abdulmuhaimin-Ali/fund-fraud-detection.git
 cd fund-fraud-detection
 ```
 
 ### 2️⃣ Install Dependencies  
 #### Backend (Python)  
 ```bash
-pip install -r backend/requirements.txt
+npm -i
 ```
 
 #### Frontend (Next.js, TypeScript)  
@@ -111,9 +111,3 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 📞 Contact  
-For queries, reach out to:  
-📧 **your-email@example.com**  
-🔗 [GitHub Repo](https://github.com/your-username/fund-fraud-detection)  
-
----
