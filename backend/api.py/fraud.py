@@ -1,6 +1,6 @@
 """
 Name: fraud.py
-Author: Shahob Zekria
+Author: Shahob Zekria, Abdul Hamdan
 Purpose: Does API calls to ChatGPT in order to evaluate if a transaction is fraudulent or not.
 """
 
@@ -57,7 +57,7 @@ Date Format:
 Use YYYY-MM-DD format for all dates.
 Output Format (Strictly Follow This JSON Structure):
 {
-  "charity": "<charity_id>",
+  "charity": "<fund_id>",
   "data": {
     "total": <total_value_of_transactions>,
     "total_non_fraud": <total_value_of_non_fraudulent_transactions>,

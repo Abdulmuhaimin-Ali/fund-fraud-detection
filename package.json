@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Funding Fraud Detection Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.x",
+    "csv-parse": "^5.x",
+    "dotenv": "^16.x",
+    "express": "^4.x"
+  }
+}

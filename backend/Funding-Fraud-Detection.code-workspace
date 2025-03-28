@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Funding-Fraud-Detection",
+			"path": ".."
+		},
+		{
+			"name": "node_modules",
+			"path": "../../MSAHacks/zakat-fruad-detection/node_modules"
+		}
+	],
+	"settings": {}
+}
