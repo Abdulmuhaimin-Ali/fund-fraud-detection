@@ -1,6 +1,6 @@
 # 🚀 Fund-Fraud-Detection  
 
-**Fund-Fraud-Detection** is a full-stack fraud detection system developed using **Next.js, TypeScript, and Python**. It integrates the **OpenAI API** to analyze transactions and detect potential fraud cases. The system processes CSV datasets, validates financial records, and ensures high accuracy in fraud detection.  
+**Fund-Fraud-Detection** is a full-stack fraud detection system developed using **Next.js, TypeScript, Python, SQLite, and Prisma ORM**. It integrates the **OpenAI API** to analyze transactions and detect potential fraud cases. The system processes CSV datasets, validates financial records, and ensures high accuracy in fraud detection.  
 
 ## 📌 Features  
 - 🕵️‍♂️ **AI-Powered Fraud Detection** – Utilizes OpenAI API to analyze financial transactions.  
