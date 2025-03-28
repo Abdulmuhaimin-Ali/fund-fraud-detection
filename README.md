@@ -15,8 +15,8 @@
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/Abdulmuhaimin-Ali/fund-fraud-detection.git
-cd fund-fraud-detection
+git clone https://github.com/ahamdan3602/Funding-Fraud-Detection.git
+cd Funding Fraud Detection
 ```
 
 ### 2️⃣ Install Dependencies  
@@ -45,6 +45,13 @@ python app.py
 ```bash
 cd frontend
 npm run dev
+```
+
+---
+
+### 2️⃣ Run the Scripts to seed the database
+```bash
+node backend/importCSVData.mjs
 ```
 
 ---
