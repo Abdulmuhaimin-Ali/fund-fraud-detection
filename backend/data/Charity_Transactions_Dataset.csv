@@ -110,7 +110,7 @@ T0133,2024-03-04 16:35:02,2874,USD,C001,V021,Purchase,203.202.106.255,"Dallas, A
 T0134,2025-01-23 21:05:26,2305,USD,C001,V045,Purchase,179.73.185.195,"Houston, Canada","Linux, Firefox",Transaction completed successfully
 T0135,2024-04-16 22:52:17,783,USD,C001,V022,Purchase,12.215.149.121,"Dallas, USA","Linux, Chrome",Transaction completed successfully
 T0136,2024-08-06 02:05:40,535,USD,C001,V043,Purchase,65.220.247.195,"San Jose, Canada","Android, Firefox",Transaction completed successfully
-T0137,2024-04-28 05:55:45,100000,USD,C001,V035,Purchase,109.108.132.118,"San Antonio, USA","Android, Safari",Transaction pending
+T0137,2024-04-28 05:55:,USD,C001,V035,Purchase,109.108.132.118,"San Antonio, USA"45,100000,"Android, Safari",Transaction pending
 T0138,2025-10-15 17:04:10,1544,USD,C001,V028,Purchase,215.20.160.16,"San Jose, USA","Android, Chrome",Transaction pending
 T0139,2025-08-21 23:24:34,4952,USD,C001,V014,Purchase,16.138.105.242,"San Jose, Canada","macOS, Chrome",Transaction completed successfully
 T0140,2025-04-06 07:44:49,3839,USD,C001,V003,Purchase,252.247.139.197,"San Jose, Germany","Windows 10, Chrome",Transaction pending
